@@ -1,0 +1,3 @@
+This project is an Apache FOP extension for creating QRCode barcodes.  More accurately, it is a wrapper around the zxing project's QRCode generation library and exposes the correct interfaces to provide a usable Apache FOP extension.  Requires both Apache FOP and zxing to work.
+
+This project borrows heavily from the fop-qrcode project also hosted on code.google.com.  fop-qrcode wraps another QRCode generation library which the author of this project found to be inferior to zxing's version.  zxing-fop-qrcode is merely a rewrite of the fop-qrcode project to wrap zxing instead.
